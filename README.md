@@ -9,9 +9,9 @@
 -----
 ## How it works
  Crapscaler works on the concept of finding averages between all adjacent pairs of elements in an array of length $n$, and inserting them appropriately, resulting in a $2n-1$ long array.   
- The program does this to the rows of an image first, then transposes, does the same to the columns (now rows, after transposing), and transposes back, resulting in an image of size $(2x-1) * (2y-1)$, where $x$ and $y$ are the dimensions of the original image.
+ The program does this to the rows of an image first, then transposes, does the same to the columns (now rows, after transposing), and transposes back, resulting in an image of size $(2x-1) * (2y-1)$, where $x$ and $y$ are the dimensions of the original image. All floating-point values are rounded in the process of crapscaling an image.
  
- To illustrate with simple numbers instead of colours:
+ To illustrate with simple numbers instead of colours (without rounding):
 
  input:   
  ```
