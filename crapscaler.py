@@ -74,7 +74,7 @@ def crapscale_colour_array(array: list) -> list:
     return new
 
 # Crapscale image on path, return new image or error value None
-def crapscale(path: str) -> Image.Image | None:
+def crapscale(path: str) -> Image.Image:
     # Open the image
     with Image.open(path) as pic:
         # Load it into an array
@@ -124,10 +124,13 @@ if __name__ == "__main__":
         try:
             # Crapscale the image
             new = crapscale(sys.argv[1])
+        # If an error occurs
         except Exception as e:
+            # Notify the user
             print("There has been an error:", e)
+            # Set new to the error value, None
             new = None
-        # If the new image is not None, i.e. the error code
+        # If the new image is not the error value, i.e. is not None
         if new is not None:
             # Create a timestamp of that exact moment, excluding milliseconds
             now = str(datetime.datetime.now()).rsplit('.')[0]
