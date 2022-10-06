@@ -40,6 +40,6 @@
  `]`   
  
  Because   
- $$ {{a + b \over 2} + {c + d \over 2} \over 2} = {{a + b + c + d \over 2} \over 2}$$,   
+ $$ {{a + b \over 2} + {c + d \over 2} \over 2} = {{a + b + c + d \over 2} \over 2}$$   
  it does not matter if the value in the centre between four corners is determined between two adjacent values in a row or two adjacent values in a column.   
  In other words, in our example, $2.5 = {1.5 + 3.5 \over 2} = {2 + 3 \over 2}$.
