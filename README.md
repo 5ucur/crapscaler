@@ -1,11 +1,11 @@
 # crapscaler
  what a crappy upscaler!
  
- A crappy image upscaler. Don't use it. Written in less than two days. I think I spent more time on this readme than on the program.  
- Inspiration came from pondering audio files, actually, one day when there was a power outage.   
- Absolutely zero research on upscaling has been done for this program.   
- Crapscaler does not use AI, blockchain, NFT, ML, DL, or any other technology buzzword. It is unoptimised, but lightweight in requirements.   
- This readme has been formatted for GitHub's flavour of Markdown. Elsewhere, it may look different from what was intended, especially the mathematical expressions.
+ - A crappy image upscaler. Don't use it. Written in less than two days. I think I spent more time on this readme than on the program.  
+ - Inspiration came from pondering audio files, actually, one day when there was a power outage.   
+ - Absolutely zero research on upscaling has been done for this program.   
+ - Crapscaler does not use AI, blockchain, NFT, ML, DL, or any other technology buzzword. It is unoptimised, but lightweight in requirements.   
+ - This readme has been formatted for GitHub's flavour of Markdown. Elsewhere, it may look different from what was intended, especially the mathematical expressions.
  
 -----
 ## How it works
@@ -44,7 +44,7 @@
     [2,   3,   4]   
  ]
  ```   
- transpose back:   
+ transposed back:   
  ```
  [   
     [1, 1.5, 2],   
@@ -87,4 +87,4 @@
  
  If you're certain your `python` is `python3`, you can omit the `3`. Maybe it even works properly in Python 2. Haven't tested.   
  Does not work for .gif. Have tested with .jpg and .png, works for those. May work for some other filetypes. Supports transparency in .png.   
- Absolutely nothing is guaranteed. I told you not to use it. It's on you if it doesn't work or screws something up. This is also in the license.
+ *Absolutely nothing is guaranteed. I told you not to use it. It's on you if it doesn't work or screws something up. This is also in the license.*
