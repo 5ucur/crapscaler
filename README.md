@@ -3,7 +3,7 @@
  
  A crappy image upscaler. Don't use it. Written in less than two days. I think I spent more time on this readme than on the program.  
  Inspiration came from pondering audio files, actually, one day when there was a power outage.   
- Absolutely zero research on upscaling has been done while writing this program.   
+ Absolutely zero research on upscaling has been done for this program.   
  Crapscaler does not use AI, blockchain, NFT, ML, DL, or any other technology buzzword. It is unoptimised, but lightweight in requirements.
  
 -----
