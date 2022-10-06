@@ -73,6 +73,14 @@
  `python3 crapscaler.py /path/to/image/file.extension`   
  For example,  
  `python3 crapscaler.py /home/bob/cat.png`
+ 
+ You'll need to install `numpy`. One way of doing so, and the most common one, is  
+ `pip install numpy`  
+ Another would be (if you're using Arch Linux or an Arch-based distro)  
+ `sudo pacman -S python-numpy`  
+ There are some more, like if you're using Anaconda, I *think* you'd run  
+ `conda install numpy`  
+ but don't quote me on that. Look it up yourself for your setup!
 
  The output file will be saved in the same directory as the input file, with a modified filename to mention it has been crapscaled, as well as with the date and time (to the second) when it was crapscaled. Example:   
  `/home/bob/cat_crapscaled_2022_12_31_14_15_16.png` would be done on Dec 31. 2022. at 2:15:16 PM.
