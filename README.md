@@ -4,7 +4,8 @@
  A crappy image upscaler. Don't use it. Written in less than two days. I think I spent more time on this readme than on the program.  
  Inspiration came from pondering audio files, actually, one day when there was a power outage.   
  Absolutely zero research on upscaling has been done for this program.   
- Crapscaler does not use AI, blockchain, NFT, ML, DL, or any other technology buzzword. It is unoptimised, but lightweight in requirements.
+ Crapscaler does not use AI, blockchain, NFT, ML, DL, or any other technology buzzword. It is unoptimised, but lightweight in requirements.   
+ This readme has been formatted for GitHub's flavour of Markdown. Elsewhere, it may look different from what was intended, especially the mathematical expressions.
  
 -----
 ## How it works
@@ -52,6 +53,7 @@
  ]
  ```
  --------
+ ## Some maths
  Because ${a + b \over 2} + {c + d \over 2} = {a + c \over 2} + {b + d \over 2} = {a + b + c + d \over 2}$,   
  and indeed ${{a + b \over 2} + {c + d \over 2} \over 2} = {{a + c \over 2} + {b + d \over 2} \over 2} = {{a + b + c + d \over 2} \over 2} = {a + b + c + d \over 4}$,   
  it does not matter if the value in the centre between four corners is determined between two adjacent values in a row, two adjacent values in a column, or all four.   
