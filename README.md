@@ -6,6 +6,7 @@
  - Absolutely zero research on upscaling has been done for this program.   
  - Crapscaler does not use AI, blockchain, NFT, ML, DL, or any other technology buzzword. It is unoptimised, but lightweight in requirements.   
  - This readme has been formatted for GitHub's flavour of Markdown. Elsewhere, it may look different from what was intended, especially the mathematical expressions.
+ - After some testing, I've come to find that crapscaler just blurs your image. As I said, don't use it. It was a fun little project and I learnt a bit while making it, but it's not meant to be a good upscaler. Hence the name.
  
 -----
 ## How it works
